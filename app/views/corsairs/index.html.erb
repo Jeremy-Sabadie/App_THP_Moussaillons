@@ -2,11 +2,10 @@
 </br>
 
 <!-- Index des Moussaillons -->
-<h1>Ici vous êtes sur l'index ou vous pouvez retrouver tout les profiles de corsaires</h1>
+<h1>Voici tous les profiles des corsaires</h1>
 <table>
   <tr>
 
-    <!-- Initiation d'un tableau -->
     <th>Prénom - </th>
     </br>
     <th>- Age</th>
@@ -18,7 +17,6 @@
 
 
       <td><%= corsair.age %></td></br>
-<!--CRUD -->
 
       <td><%= link_to "Afficher profil", corsair_path(corsair) %> - </td> 
 
@@ -26,9 +24,9 @@
 
 
 
-      <td> - <%= link_to "Delete & Bye bye", corsair_path(corsair),
+      <td> - <%= link_to "Effacer", corsair_path(corsair),
               method: :delete,
-              data: { confirm: 'do you want to delete ?' } %> </td></br>
+              data: { confirm: 'Effacer ?' } %> </td></br>
 
     </tr>
   <% end %>

@@ -4,21 +4,21 @@
 <%= form_with model: @corsair, local: true do |form| %>
 
  <p>
-   <%= form.label "What's your First name?" %><br>
+   <%= form.label "Note ton prénom:" %><br>
    <%= form.text_field :first_name %>
  </p>
 </br>
  <p>
-   <%= form.label "Moussaillon, quel âge avez-vous ?" %><br>
+   <%= form.label "Inscrit ton age:" %><br>
    <%= form.number_field :age %>
  </p>
  
  
 
- <p> Choose your poison, Hummus ou kebab ? </p>
+ <p> Que préfères tu? kebab ou Hummus? </p>
 
-	<%= form.radio_button :likeness, 'Kebab' %> Kebab, chef
-	<%= form.radio_button :likeness, 'Hummus' %> Hummus carottes
+	<%= form.radio_button :likeness, 'Kebab' %> Kebab
+	<%= form.radio_button :likeness, 'Hummus' %> Hummus
 
  <p>
    <%= form.submit "send" %>

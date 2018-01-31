@@ -1,11 +1,6 @@
-# Kebab de la galere
+# On prend les mêmes et on recommence!!!
 
-Bienvenue, tu peux trouver le lien heroku ici => https://serene-refuge-50262.herokuapp.com
+Ici rien ne tourne, ni enj local ni en ligne!
+Je n'arrive pas à comprendre. Dommage
 
-Si t'es fan de Gossip fais un tour ici : 
-
-=> https://github.com/Nymze/gossip-project
-
-:)
-
-
+https://git.heroku.com/fierce-citadel-72427.git

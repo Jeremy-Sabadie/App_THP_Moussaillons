@@ -5,7 +5,7 @@
 
 
 <h2> <%= @corsair.first_name %> </h2>
-<p> laisse moi te dire que tu aime le <%= @corsair.likeness %>
-<p> depuis : <%= @corsair.age %> ans </p>
-<p> EDIT YOUR PROFILE HERE <%= link_to('change it here', edit_corsair_path) %> </p> 
-<p> HOME <%= link_to('Go Home now', corsairs_path) %> </p> 
+<p>  Du coup, tu préfère: <%= @corsair.likeness %>
+<p> Age : <%= @corsair.age %> ans </p>
+<p> Retouche ton profil ici <%= link_to('change', edit_corsair_path) %> </p> 
+<p> HOME <%= link_to('Acceuil', corsairs_path) %> </p> 
